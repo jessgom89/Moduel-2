@@ -1,3 +1,7 @@
+*{
+margin: 0;    
+padding: 0;
+}
 header{
 display:flex;
 flex-wrap: wrap;
@@ -21,8 +25,34 @@ justify-content: flex-end;
 list-style: none;  
 }
 
+figure{
+padding: 0;  
+margin: 0;  
+background: url(../images/beach.jpg); 
+background-size: cover;
+height: 100px;
+width: 100%;
+background-repeat: no-repeat;
+border: 1px red solid;  
+}
+.section-title{
+display: flex;
+flex-wrap: wrap;    
 
+}
+.section-title h1{
+width: 10%;
+border-right: 1px black solid;
 
+}
+img{
+width: 100%;
+    
+}
+.section-title p{
+width:85%;   
+padding-left: 2%;
+}
 header nav li a{
 
 padding-left: 20px;     
