@@ -45,13 +45,15 @@ width: 10%;
 border-right: 1px black solid;
 
 }
-img{
-width: 100%;
+
+
     
-}
 .section-title p{
-width:85%;   
+width: 80%;   
 padding-left: 2%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-betweenm;
 }
 header nav li a{
 
@@ -60,5 +62,16 @@ padding-left: 20px;
 
  
 }
+#large img{
+width: 100%; 
+
+}
+
+.medium {
+
+margin: 2%;
+width: 40%;    
+}
+
 
 
